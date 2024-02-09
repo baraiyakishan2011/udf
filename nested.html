@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        let a = parseInt(prompt("value of A = "));
+        console.log("A = ",a);
+        let b = parseInt(prompt("value of B = "));
+        console.log("B = ",b);
+        let c = parseInt(prompt("value of C = "));
+        console.log("C = ",c);
+        let d = parseInt(prompt("value of D = "));
+        console.log("D = ",d);
+
+        function maximum(a, b, c, d) {
+            if (a > b) {
+                if (a > c) {
+                    if (a > d) {
+                        printf("A is maximum");
+                    }
+                    else {
+                        printf("D is maximum");
+                    }
+                }
+                else {
+                    if (c > d) {
+                        printf("C is maximum");
+                    }
+                    else {
+                        printf("D is maximum");
+                    }
+                }
+            }
+            else {
+                if (b > c) {
+                    if (b > d) {
+                        printf("B is maximum");
+                    }
+                    else {
+                        printf("D is maximum");
+                    }
+                }
+                else {
+                    if (c > d) {
+                        printf("C is maximum");
+                    }
+                    else {
+                        printf("D is maximum");
+
+                    }
+                }
+            }
+        }
+
+
+        maximum(a, b, c, d);
+    </script>
+
+</body>
+
+</html>

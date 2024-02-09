@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let a = parseInt(prompt("value of A = "));
+        console.log("A = ",a);
+        let b = parseInt(prompt("value of B = "));
+        console.log("B = ",b);
+
+        function swapping(a,b) {
+            let k;
+            k = a;
+            a = b;
+            b = k;
+
+            console.log("After swapping");
+
+            console.log("A = ",a);
+            console.log("B = ",b);
+        }
+
+        swapping(a,b);
+    </script>
+
+</body>
+
+</html>
